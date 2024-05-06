@@ -1,0 +1,151 @@
+Script started on Sun 03 Mar 2024 09:58:22 PM HST
+]0;adamgra@uhx02:~/homework5[?1034huhx02:/home/a/adamgra/homework5% ./homework5
+
+Welcome, Trainer! This is Professor Oak's Pokemon bank.
+The bank stores Pokemon and their level.
+****************NOTE: The following data is hardcoded.****************
+
+****************TEST 1 (Part 1): writefile FUNCTION****************
+<<<Tests if the writefile function will write the data stored in the array into a text file>>>
+<<<Pokemon array data containing 3 Pokemon>>>: 
+Pikachu lvl. 15
+Charizard lvl. 36
+Bulbasaur lvl. 16
+
+FUNCTION CALLED: writefile. Writing to "PokemonList.txt"
+writefile returned 0
+SUCCESS! Wrote to the file "PokemonList.txt"
+****************END OF TEST 1 (Part 1)****************
+
+****************TEST 1 (Part 2): readfile FUNCTION****************
+<<<Testing whether the readfile will read the data from a text file and store it in the array called by pokearray.>>>
+<<<Pokemon array data before reading from the file>>>: 
+0
+
+0
+
+0
+
+
+FUNCTION CALLED: readfile
+readfile returned 0
+SUCCESS! Read from file "PokemonList.txt"
+
+Pokemon array data after reading from file: 
+15
+Pikachu
+36
+Charizard
+16
+Bulbasaur
+****************END OF TEST 1 (Part 2)****************
+
+****************TEST 2 (Part 1): writefile WITH 7 POKEMON****************
+<<<Testing if writefile function will overwrite the previous file
+with a different set of Pokemon (from largerPokemonBank[7])>>>
+<<<Pokemon array data containing 7 Pokemon>>>: 
+Rampardos lvl. 15
+Bronzong lvl. 36
+Garchomp lvl. 16
+Lucario lvl. 12
+Greninja lvl. 14
+Talonflame lvl. 38
+Psyduck lvl. 70
+
+FUNCTION CALLED: writefile. Writing to "PokemonList.txt"
+writefile returned 0
+SUCCESS! Wrote to the file "PokemonList.txt"
+****************END OF TEST 2 (Part 1)****************
+
+****************TEST 2 (Part 2): readfile****************
+<<<Testing readfile will store all the Pokemon the array can hold (largerPokemonBank[7])>>>
+<<<Pokemon array data before reading from file>>>: 
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+
+FUNCTION CALLED: readfile 
+readfile returned 0
+SUCCESS! Read from the file "PokemonList.txt"
+
+Pokemon array data after reading from the file: 
+15
+Rampardos
+36
+Bronzong
+16
+Garchomp
+12
+Lucario
+14
+Greninja
+38
+Talonflame
+70
+Psyduck
+****************END OF TEST 2 (Part 2)****************
+
+****************TEST 3 (Part 1): writefile WITH 6 POKEMON****************
+<<<Testing whether the writefile function will overwrite the previous file with another set of Pokemon (from pokemonbank[6])>>>
+<<<Pokemon array data containing 6 Pokemon>>>: 
+Clefable lvl. 15
+Doduo lvl. 36
+Raichu lvl. 16
+Beedrill lvl. 12
+Sandslash lvl. 14
+Skarmory lvl. 38
+
+FUNCTION CALLED: writefile. Writing to "PokemonList.txt"
+writefile returned 0
+SUCCESS! Wrote to the file "PokemonList.txt"
+****************END OF TEST 3 (Part 1)****************
+
+****************TEST 3 (Part 2): readfile****************
+<<<Testing that readfile will store all the Pokemon the array can hold (pokemonbank[6] max)>>>
+<<<Pokemon array data before reading from file>>>: 
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+
+FUNCTION CALLED: readfile 
+readfile returned 0
+SUCCESS! Read from file "PokemonList.txt"
+
+Pokemon array data after reading from the file: 
+15
+Clefable
+36
+Doduo
+16
+Raichu
+12
+Beedrill
+14
+Sandslash
+38
+Skarmory
+****************END OF TEST 3 (Part 2)****************
+]0;adamgra@uhx02:~/homework5uhx02:/home/a/adamgra/homework5% exit
+exit
+
+Script done on Sun 03 Mar 2024 09:58:36 PM HST

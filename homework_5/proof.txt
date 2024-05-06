@@ -1,0 +1,9 @@
+Script started on Sun 03 Mar 2024 09:57:11 PM HST
+]0;adamgra@uhx02:~/homework5[?1034huhx02:/home/a/adamgra/homework5% make
+gcc -ansi -pedantic-errors -Wall -c driver.c
+gcc -ansi -pedantic-errors -Wall -c iofunctions.c
+gcc -o homework5 driver.o iofunctions.o
+]0;adamgra@uhx02:~/homework5uhx02:/home/a/adamgra/homework5% exit
+exit
+
+Script done on Sun 03 Mar 2024 09:57:19 PM HST
