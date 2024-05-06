@@ -1,0 +1,64 @@
+Script started on Fri 03 May 2024 08:36:49 PM HST
+]0;adamgra@uhx02:~/homework10[?1034huhx02:/home/a/adamgra/homework10% make run
+java -Djava.library.path=. homework10
+This program generates a table of numbers from 0 to the user-specified maximum.
+The table includes a column indicating the numbers that are multiples of 3.
+Enter a maximum number to show:
+123abc
+***ERROR: Invalid Input. Please enter a non-zero positive integer***
+Enter a maximum number to show:
+abc
+***ERROR: Invalid Input. Please enter a non-zero positive integer***
+Enter a maximum number to show:
+-15
+***ERROR: Invalid Input. Please enter a non-zero positive integer***
+Enter a maximum number to show:
+0
+***ERROR: Invalid Input. Please enter a non-zero positive integer***
+Enter a maximum number to show:
+15
+  Number   Multiple of 3?
+       0   No
+       1   No
+       2   No
+       3  Yes
+       4   No
+       5   No
+       6  Yes
+       7   No
+       8   No
+       9  Yes
+      10   No
+      11   No
+      12  Yes
+      13   No
+      14   No
+      15  Yes
+]0;adamgra@uhx02:~/homework10uhx02:/home/a/adamgra/homework10% make run
+java -Djava.library.path=. homework10
+This program generates a table of numbers from 0 to the user-specified maximum.
+The table includes a column indicating the numbers that are multiples of 3.
+Enter a maximum number to show:
+16
+  Number   Multiple of 3?
+       0   No
+       1   No
+       2   No
+       3  Yes
+       4   No
+       5   No
+       6  Yes
+       7   No
+       8   No
+       9  Yes
+      10   No
+      11   No
+      12  Yes
+      13   No
+      14   No
+      15  Yes
+      16   No
+]0;adamgra@uhx02:~/homework10uhx02:/home/a/adamgra/homework10% exit
+exit
+
+Script done on Fri 03 May 2024 08:38:25 PM HST

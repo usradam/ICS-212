@@ -1,0 +1,11 @@
+Script started on Fri 03 May 2024 08:28:21 PM HST
+]0;adamgra@uhx02:~/homework10[?1034huhx02:/home/a/adamgra/homework10% make
+javac homework10.java
+javah homework10
+gcc -o libhomework10.so -shared -fPIE -I /usr/java/jdk1.8.0_131/include -I /usr/java/jdk1.8.0_131/include/linux -I . homework10.c
+]0;adamgra@uhx02:~/homework10uhx02:/home/a/adamgra/homework10% ls
+homework10.c  homework10.class  homework10.h  homework10.java  [0m[01;32mlibhomework10.so[0m  Makefile  proof.txt
+]0;adamgra@uhx02:~/homework10uhx02:/home/a/adamgra/homework10% exit
+exit
+
+Script done on Fri 03 May 2024 08:28:57 PM HST
