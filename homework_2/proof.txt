@@ -1,0 +1,7 @@
+Script started on Sat 27 Jan 2024 10:31:25 PM HST
+]0;adamgra@uhx02:~/homework2[?1034huhx02:/home/a/adamgra/homework2% gcc -ansi -pedantic-errors -Wall -c homework2.c
+]0;adamgra@uhx02:~/homework2uhx02:/home/a/adamgra/homework2% gcc -o homework2 homework2.o
+]0;adamgra@uhx02:~/homework2uhx02:/home/a/adamgra/homework2% exit
+exit
+
+Script done on Sat 27 Jan 2024 10:33:11 PM HST
