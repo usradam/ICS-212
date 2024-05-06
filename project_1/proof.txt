@@ -1,0 +1,9 @@
+Script started on Mon 25 Mar 2024 06:55:16 PM HST
+]0;adamgra@uhx02:~/project[?1034huhx02:/home/a/adamgra/project% make
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -o project user_interface.o database.o
+]0;adamgra@uhx02:~/projectuhx02:/home/a/adamgra/project% exit
+exit
+
+Script done on Mon 25 Mar 2024 06:55:20 PM HST
