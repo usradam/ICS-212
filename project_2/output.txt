@@ -1,0 +1,251 @@
+Script started on Sun 21 Apr 2024 10:19:09 PM HST
+]0;adamgra@uhx02:~/project2[?1034huhx02:/home/a/adamgra/project2% ./projecct[K[Kt
+No existing file found. A new file will be created when data is saved.
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+add
+Please enter an account number:
+12
+Enter a name:
+Adam
+Enter address. When done, type a backslash (\) and press 'Enter'.
+123 Street. \
+
+***Success! Added to database***
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+a
+Please enter an account number:
+30
+Enter a name:
+Rick
+Enter address. When done, type a backslash (\) and press 'Enter'.
+RIck    Vegas Rd.\
+
+***Success! Added to database***
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+p
+
+***Printing all records***
+Accountno: 12
+Name: Adam
+Address: 123 Street
+
+Accountno: 30
+Name: Rick
+Address: Vegas Rd.
+
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+d
+Enter a positive integer:
+30
+
+***Success! Deleted accountno 30***
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+d
+Enter a positive integer:
+12
+
+***Success! Deleted accountno 12***
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+q
+
+********** EXITING PROGRAM **********
+Thank you for your business.
+*************************************
+
+***No records are in the database***
+]0;adamgra@uhx02:~/project2uhx02:/home/a/adamgra/project2% ./prohec[K[K[Kject_deg[Kbug
+
+********** DEBUG MODE **********
+Debug: llist constructor reached
+Debug: Filename = SaveFileData.txt
+********************************
+
+
+********** DEBUG MODE **********
+Debug: readfile called. Reading from the database.
+Debug: Filename = SaveFileData.txt
+********************************
+
+
+*******************
+DEBUG MODE ENABLED.
+*******************
+
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+add
+Please enter an account number:
+15
+Enter a name:
+Lily   ucy
+Enter address. When done, type a backslash (\) and press 'Enter'.
+Lucky Lane\
+
+********** DEBUG MODE **********
+Debug: addRecord called
+Debug: accountno = 15
+Debug: name = Lucy
+Debug: address = Lucky Lane
+********************************
+
+
+***Success! Added to database***
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+a
+Please enter an account number:
+30  40
+Enter a name:
+Jack
+Enter address. When done, type a backslash (\) and press 'Enter'.
+Skip C Blvd.\
+
+********** DEBUG MODE **********
+Debug: addRecord called
+Debug: accountno = 40
+Debug: name = Jack
+Debug: address = Skip Blvd.
+********************************
+
+
+***Success! Added to database***
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+p
+
+***Printing all records***
+Accountno: 15
+Name: Lucy
+Address: Lucky Lane
+
+Accountno: 40
+Name: Jack
+Address: Skip Blvd.
+
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+f
+Please enter an account number to find:
+40
+
+********** DEBUG MODE **********
+Debug: findRecord called.
+Debug: Record = 40
+********************************
+
+
+***Found record with accountno: 40***
+Accountno: 40
+Name: Jack
+Address: Skip Blvd.
+
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+quit
+
+********** EXITING PROGRAM **********
+Thank you for your business.
+*************************************
+
+
+********** DEBUG MODE **********
+Debug: Destructor called
+********************************
+
+
+********** DEBUG MODE **********
+Debug: writefile called. Saving records to file.
+Debug: Filename = SaveFileData.txt
+********************************
+
+********** DEBUG MODE **********
+Debug: cleanup called. Cleaning memory from the database.
+********************************
+
+]0;adamgra@uhx02:~/project2uhx02:/home/a/adamgra/project2% exit
+exit
+
+Script done on Sun 21 Apr 2024 10:25:03 PM HST

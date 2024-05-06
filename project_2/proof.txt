@@ -1,0 +1,14 @@
+Script started on Sun 21 Apr 2024 10:16:44 PM HST
+]0;adamgra@uhx02:~/project2[?1034huhx02:/home/a/adamgra/project2% make -f release.mak
+g++ -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -o project llist.o user_interface.o
+]0;adamgra@uhx02:~/project2uhx02:/home/a/adamgra/project2% touch *.cpp
+]0;adamgra@uhx02:~/project2uhx02:/home/a/adamgra/project2% make -f debug.mak
+g++ -ansi -pedantic-errors -Wall -c -D DEBUG llist.cpp
+g++ -ansi -pedantic-errors -Wall -c -D DEBUG user_interface.cpp
+g++ -o project_debug llist.o user_interface.o
+]0;adamgra@uhx02:~/project2uhx02:/home/a/adamgra/project2% exit
+exit
+
+Script done on Sun 21 Apr 2024 10:17:12 PM HST
