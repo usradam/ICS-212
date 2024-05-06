@@ -1,0 +1,12 @@
+Script started on Sat 27 Apr 2024 10:44:27 PM HST
+]0;adamgra@uhx02:~/homework9[?1034huhx02:/home/a/adamgra/homework9% make
+g++ -ansi -pedantic-errors -Wall -c main.cpp
+g++ -ansi -pedantic-errors -Wall -c pokemon.cpp
+g++ -ansi -pedantic-errors -Wall -c gyarados.cpp
+g++ -ansi -pedantic-errors -Wall -c heracross.cpp
+g++ -ansi -pedantic-errors -Wall -c typhlosion.cpp
+g++ -o homework9 main.o pokemon.o gyarados.o heracross.o typhlosion.o
+]0;adamgra@uhx02:~/homework9uhx02:/home/a/adamgra/homework9% exit
+exit
+
+Script done on Sat 27 Apr 2024 10:44:39 PM HST
