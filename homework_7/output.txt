@@ -1,0 +1,80 @@
+Script started on Sun 31 Mar 2024 11:09:37 AM HST
+]0;adamgra@uhx02:~/homework7[?1034huhx02:/home/a/adamgra/homework7% .[Kls
+[0m[01;32mhomework7[0m  homework7.c  homework7.o  Makefile  output.txt  proof.txt  request1.bin  request2.bin  request3.bin
+]0;adamgra@uhx02:~/homework7uhx02:/home/a/adamgra/homework7% ./homework7
+***Success! Read request1.bin***
+4A E3 EA EA FF FF 12 0F F4 5F 2A 31 50 2A 00 00 FF FF 00 00 
+Source port: 58186
+Destination port: 60138
+Sequence number: 252903423
+Acknowledgement number: 824860660
+Control bits which are set to 1: 
+SYN
+PSH
+URG
+
+***Success! Created response1 header***
+EA EA 6A F3 00 00 13 0F FF FF 12 0F 50 3A 00 00 FF FF 00 00 
+Source port: 60138
+Destination port: 62314
+Sequence number: 252903424
+Acknowledgement number: 252903423
+Control bits which are set to 1: 
+SYN
+PSH
+ACK
+URG
+
+-----------------------------------------------------------
+
+***Success! Read request2.bin***
+DF 1C DC DF FF FF FF EB 07 E4 F3 41 50 11 00 00 FF FF 00 00 
+Source port: 7391
+Destination port: 57308
+Sequence number: 3959422975
+Acknowledgement number: 1106502663
+Control bits which are set to 1: 
+FIN
+ACK
+
+***Success! Created response2 header***
+DC DF DF 1C 00 00 00 EC FF FF FF EB 50 11 00 00 FF FF 00 00 
+Source port: 57308
+Destination port: 7391
+Sequence number: 3959422976
+Acknowledgement number: 3959422975
+Control bits which are set to 1: 
+FIN
+ACK
+
+-----------------------------------------------------------
+
+***Success! Read request3.bin***
+99 A2 83 96 BC 47 12 12 62 E7 20 57 50 03 00 00 FF FF 00 00 
+Source port: 41625
+Destination port: 38531
+Sequence number: 303187900
+Acknowledgement number: 1461774178
+Control bits which are set to 1: 
+FIN
+SYN
+
+***Success! Created response3 header***
+83 96 B9 B2 BD 47 12 12 BC 47 12 12 50 13 00 00 FF FF 00 00 
+Source port: 38531
+Destination port: 45753
+Sequence number: 303187901
+Acknowledgement number: 303187900
+Control bits which are set to 1: 
+FIN
+SYN
+ACK
+
+-----------------------------------------------------------
+
+]0;adamgra@uhx02:~/homework7uhx02:/home/a/adamgra/homework7% ls
+[0m[01;32mhomework7[0m  homework7.c  homework7.o  Makefile  output.txt  proof.txt  request1.bin  request2.bin  request3.bin  response1.bin  response2.bin  response3.bin
+]0;adamgra@uhx02:~/homework7uhx02:/home/a/adamgra/homework7% exit
+exit
+
+Script done on Sun 31 Mar 2024 11:10:05 AM HST
