@@ -1,0 +1,8 @@
+Script started on Sun 11 Feb 2024 08:30:22 PM HST
+]0;adamgra@uhx02:~/homework3b[?1034huhx02:/home/a/adamgra/homework3b% make
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -o homework3 user_interface.o database.o
+]0;adamgra@uhx02:~/homework3buhx02:/home/a/adamgra/homework3b% exit
+exit
+
+Script done on Sun 11 Feb 2024 08:30:27 PM HST

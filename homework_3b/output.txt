@@ -1,0 +1,236 @@
+Script started on Sun 11 Feb 2024 10:46:48 PM HST
+]0;adamgra@uhx02:~/homework3b/test[?1034huhx02:/home/a/adamgra/homework3b/test% ./homework3 debug abcdef
+Invalid option. Only "debug" is allowed.]0;adamgra@uhx02:~/homework3b/testuhx02:/home/a/adamgra/homework3b/test% ./homework3
+
+*******************
+DEBUG MODE ENABLED.
+*******************
+
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+q
+
+********** EXITING PROGRAM **********
+Thank you for your business.
+*************************************
+
+]0;adamgra@uhx02:~/homework3b/testuhx02:/home/a/adamgra/homework3b/test% ./homework3 debug
+
+*******************
+DEBUG MODE ENABLED.
+*******************
+
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+add
+Please enter an account number:
+-10
+ERROR: Integer is negative or 0. Enter a non-zero positive integer.
+0
+ERROR: Integer is negative or 0. Enter a non-zero positive integer.
+123abc
+ERROR: Invalid input. Only positive integers greater than 0 allowed.
+10
+Enter a name:
+Spongebob Squarepants
+Enter address. When done, type a backslash (\) and then press 'Enter'.
+124 Conch St.
+Bikini Bottom\
+
+********** DEBUG MODE **********
+Debug: addRecord called.
+Debug: accountno = 10
+Debug: name = Spongebob Squarepants
+Debug: address = 124 Conch St.
+Bikini Bottom
+********************************
+
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+abcdef
+Invalid option. Please try again.
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+printall
+
+********** DEBUG MODE **********
+Debug: printAllRecords called.
+********************************
+
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+find
+Please enter an account number to find:
+-5
+ERROR: Integer is negative or 0. Enter a non-zero positive integer.
+abc
+ERROR: Invalid input. Only positive integers greater than 0 allowed.
+abc123
+ERROR: Invalid input. Only positive integers greater than 0 allowed.
+10
+
+********** DEBUG MODE **********
+Debug: findRecord called.
+Debug: Record = 10
+********************************
+
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+delete
+Enter a positive integer:
+10
+
+********** DEBUG MODE **********
+Debug: deleteRecord called.
+Debug: Deleted record = 10
+********************************
+
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+de
+Enter a positive integer:
+1
+
+********** DEBUG MODE **********
+Debug: deleteRecord called.
+Debug: Deleted record = 1
+********************************
+
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+ad
+Please enter an account number:
+2
+Enter a name:
+Patrick
+Enter address. When done, type a backslash (\) and then press 'Enter'.
+Patrick's Address\
+
+********** DEBUG MODE **********
+Debug: addRecord called.
+Debug: accountno = 2
+Debug: name = Patrick
+Debug: address = Patrick's Address
+********************************
+
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+adding
+Invalid option. Please try again.
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+a
+Please enter an account number:
+1
+Enter a name:
+Mr. Krabs
+Enter address. When done, type a backslash (\) and then press 'Enter'.
+333 Address, 91233\
+
+********** DEBUG MODE **********
+Debug: addRecord called.
+Debug: accountno = 1
+Debug: name = Mr. Krabs
+Debug: address = 333 Address, 91233
+********************************
+
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+quitting
+Invalid option. Please try again.
+
+This program accesses a database to add, print, find, and delete items.
+
+Type and enter one of the following menu options below:
+add: Adds record to database.
+printall: Prints all available records.
+find: Finds a specific record.
+delete: Deletes specific record.
+quit: Exits the program.
+quit
+
+********** EXITING PROGRAM **********
+Thank you for your business.
+*************************************
+
+]0;adamgra@uhx02:~/homework3b/testuhx02:/home/a/adamgra/homework3b/test% exit
+exit
+
+Script done on Sun 11 Feb 2024 10:49:12 PM HST
