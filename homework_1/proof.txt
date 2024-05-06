@@ -1,0 +1,8 @@
+Script started on Sat 20 Jan 2024 09:10:08 PM HST
+]0;adamgra@uhx02:~/homework1[?1034huhx02:/home/a/adamgra/homework1% gcc -ansi -pedantic-errors - [KWall -c homework1.c
+]0;adamgra@uhx02:~/homework1uhx02:/home/a/adamgra/homework1% gcc -o homework1 homework1.c
+]0;adamgra@uhx02:~/homework1uhx02:/home/a/adamgra/homework1% javac helloworld.java
+]0;adamgra@uhx02:~/homework1uhx02:/home/a/adamgra/homework1% exit
+exit
+
+Script done on Sat 20 Jan 2024 09:11:51 PM HST
