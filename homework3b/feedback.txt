@@ -2,4 +2,4 @@ Missing compile/linkage cmd or options
 
 Didn't test all combinations of arguments
 
-strncmp has already taking care of the length issue no need for strlen.
+strncmp has already taking care of the length issue so no need for strlen.
