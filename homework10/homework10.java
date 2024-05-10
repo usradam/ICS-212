@@ -95,8 +95,8 @@ public class homework10
             catch (NumberFormatException e)
             {
                 System.out.println("***ERROR: Invalid Input. Please enter a non-zero positive integer***");
-			}
-            }
+	    }
+        }
             return maxNum;
     }
 
