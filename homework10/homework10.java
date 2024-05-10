@@ -97,7 +97,7 @@ public class homework10
                 System.out.println("***ERROR: Invalid Input. Please enter a non-zero positive integer***");
 	    }
         }
-            return maxNum;
+        return maxNum;
     }
 
     /*****************************************************************
