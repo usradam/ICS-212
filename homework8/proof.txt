@@ -1,7 +1,0 @@
-Script started on Sat 06 Apr 2024 09:42:29 PM HST
-]0;adamgra@uhx02:~/homework8[?1034huhx02:/home/a/adamgra/homework8% g++ -ansi -pedantic-errors -Wall -c homework8.cpp
-]0;adamgra@uhx02:~/homework8uhx02:/home/a/adamgra/homework8% g++ -o homework8 homework8.o
-]0;adamgra@uhx02:~/homework8uhx02:/home/a/adamgra/homework8% exit
-exit
-
-Script done on Sat 06 Apr 2024 09:43:28 PM HST
