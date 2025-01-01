@@ -1,2 +1,2 @@
 # ICS-212
-Projects for my ICS 212 class.
+ICS 212 class projects - Spring 2024
